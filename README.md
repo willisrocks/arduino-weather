@@ -42,6 +42,10 @@ Arduino Uno (or Mega), Ethernet Shield, Baromoter/Temp sensor, Battery Pack
 
 SD Card: https://www.arduino.cc/en/Reference/SD
 
+## Week 5
+
+We got the SD card reader working. We were able to log our weather sensor data and write it to a file on the SD card in CSV format.
+
 ## Week 4
 
 We finished CIRC-10 and hooked up our Ethernet shield. We were able to get an IP address, and we were able to ping our arduino over the network. On Thursday, we hooked up our temp/pressure sensor, and verified that we could get data and output it to the serial monitor. We used this example program: https://github.com/adafruit/Adafruit_MPL3115A2_Library/blob/master/examples/testmpl3115a2/testmpl3115a2.ino
