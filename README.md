@@ -15,10 +15,10 @@ Week 3:
 Boxall CIRC-07
 
 Week 4:
-Boxall CIRC-10
+Boxall CIRC-10, Weather pod basic tempature logging, Ethernet shield testing
 
 Week 5:
-Weather pod basic tempature logging
+Weather pod basic tempature logging - storing data
 
 Week 6:
 Weather pod pressure and altometer logging
@@ -36,7 +36,15 @@ Week 10:
 Wrap-up and demo
 
 Initial Parts List:
-Arduino Uno (or Mega), Ethernet Shield, Baromoter/Temp sensor, Battery Pack<Paste>
+Arduino Uno (or Mega), Ethernet Shield, Baromoter/Temp sensor, Battery Pack
+
+## Week 4
+
+We finished CIRC-10 and hooked up our Ethernet shield. We were able to get an IP address, and we were able to ping our arduino over the network. On Thursday, we hooked up our temp/pressure sensor, and verified that we could get data and output it to the serial monitor. We used this example program: https://github.com/adafruit/Adafruit_MPL3115A2_Library/blob/master/examples/testmpl3115a2/testmpl3115a2.ino
+
+## Week 3
+
+In week 3, we completed CIRC-07 from Boxall. We successfully wired our pushbuttons to controla LED bulb. We played with different ways to control the LED using our buttons, and we expiremented with counting the number of times we pressed the buttons.
 
 ## Week 2
 
