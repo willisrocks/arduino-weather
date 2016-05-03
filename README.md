@@ -38,6 +38,11 @@ Wrap-up and demo
 Initial Parts List:
 Arduino Uno (or Mega), Ethernet Shield, Baromoter/Temp sensor, Battery Pack
 
+## Week 6
+
+HTTP Client Testing
+https://github.com/interactive-matter/HTTPClient
+
 ## Week 5
 
 SD Card: https://www.arduino.cc/en/Reference/SD
