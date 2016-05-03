@@ -41,7 +41,7 @@ Arduino Uno (or Mega), Ethernet Shield, Baromoter/Temp sensor, Battery Pack
 ## Week 6
 
 HTTP Client Testing
-https://github.com/interactive-matter/HTTPClient
+https://github.com/amcewen/HttpClient
 
 ## Week 5
 
