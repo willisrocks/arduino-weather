@@ -40,16 +40,11 @@ Arduino Uno (or Mega), Ethernet Shield, Baromoter/Temp sensor, Battery Pack
 
 ## Week 6
 
-HTTP Client Testing
-https://github.com/amcewen/HttpClient
+We implemented setup a HTTP client on our arduino, and we tested sending GET and POST requests using an Ethernet connection. We should now be ready to communicate with our webserver via a REST API. HTTP Client Library: https://github.com/amcewen/HttpClient
 
 ## Week 5
 
-SD Card: https://www.arduino.cc/en/Reference/SD
-
-## Week 5
-
-We got the SD card reader working. We were able to log our weather sensor data and write it to a file on the SD card in CSV format.
+We got the SD card reader working. We were able to log our weather sensor data and write it to a file on the SD card in CSV format. SD Card: https://www.arduino.cc/en/Reference/SD
 
 ## Week 4
 
