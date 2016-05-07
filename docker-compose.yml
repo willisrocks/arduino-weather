@@ -1,0 +1,21 @@
+---
+weather:  
+  build: .
+  command: ./script/start.sh
+  volumes:
+    - .:/weather
+  volumes_from:
+    - box
+  ports:
+  - "4567:4567"
+  links:
+  - mongodb
+  environment:
+    - RAILS_ENV=production
+    - RACK_ENV=production
+mongodb:  
+  image: mongo
+box:
+  image: busybox
+  volumes:
+    - /box
