@@ -1,5 +1,5 @@
 ---
-weather:  
+weather:
   build: .
   command: ./script/start.sh
   volumes:
@@ -13,8 +13,10 @@ weather:
   environment:
     - RAILS_ENV=production
     - RACK_ENV=production
-mongodb:  
+mongodb:
   image: mongo
+  volumes:
+    - .:/mongo
 box:
   image: busybox
   volumes:

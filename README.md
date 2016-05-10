@@ -24,7 +24,7 @@ Week 6:
 Weather pod pressure and altometer logging
 
 Week 7:
-Weather pod remote data logging
+Weather pod remote data logging. Stand up remote API and test GET and POST requests via CURL.
 
 Week 8:
 Weather pod remote website protype
