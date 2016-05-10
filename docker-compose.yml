@@ -1,11 +1,9 @@
 ---
 weather:
   build: .
-  command: ./script/start.sh
+  command: bundle exec ruby weather.rb
   volumes:
     - .:/weather
-  volumes_from:
-    - box
   ports:
   - "4567:4567"
   links:
@@ -17,7 +15,3 @@ mongodb:
   image: mongo
   volumes:
     - .:/mongo
-box:
-  image: busybox
-  volumes:
-    - /box
