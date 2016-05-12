@@ -38,6 +38,10 @@ Wrap-up and demo
 Initial Parts List:
 Arduino Uno (or Mega), Ethernet Shield, Baromoter/Temp sensor, Battery Pack
 
+## Week 7
+
+This week we implemented and deployed our REST API server application. We tested GET and POST requests on our server using CURL. Our server application is properly persisting the data using a database. We're now ready to put together all the concepts that we built proof of concepts for on our arduino and start logging our climate data and publishing it to our server.
+
 ## Week 6
 
 We implemented setup a HTTP client on our arduino, and we tested sending GET and POST requests using an Ethernet connection. We should now be ready to communicate with our webserver via a REST API. HTTP Client Library: https://github.com/amcewen/HttpClient
