@@ -38,6 +38,10 @@ Wrap-up and demo
 Initial Parts List:
 Arduino Uno (or Mega), Ethernet Shield, Baromoter/Temp sensor, Battery Pack
 
+## Week 8
+
+We researched implementing and attaching our Arduino (Weather Station) to a quadcopter.  As well as a protected containment apparatus in the unlikely event of a flight failure and crash.
+
 ## Week 7
 
 This week we implemented and deployed our REST API server application. We tested GET and POST requests on our server using CURL. Our server application is properly persisting the data using a database. We're now ready to put together all the concepts that we built proof of concepts for on our arduino and start logging our climate data and publishing it to our server.
