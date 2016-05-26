@@ -38,6 +38,10 @@ Wrap-up and demo
 Initial Parts List:
 Arduino Uno (or Mega), Ethernet Shield, Baromoter/Temp sensor, Battery Pack
 
+## Final Writeup
+
+We built a portable weather station that records weather data in the field, saves it locally on the arduino, and submits it to our server when connected to the Internet for further retrieval and analysis.
+
 ## Week 8
 
 We researched implementing and attaching our Arduino (Weather Station) to a quadcopter.  As well as a protected containment apparatus in the unlikely event of a flight failure and crash.
